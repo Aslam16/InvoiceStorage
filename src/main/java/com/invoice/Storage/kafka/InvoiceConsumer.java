@@ -1,15 +1,12 @@
 package com.invoice.Storage.kafka;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.invoice.Storage.controller.Controller;
 import com.invoice.Storage.models.InvoiceView;
 import com.invoice.Storage.service.InvoiceDBService;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @Service
